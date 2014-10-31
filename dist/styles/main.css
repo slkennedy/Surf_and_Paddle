@@ -13,8 +13,10 @@ header.header-image {
   height: 514px;
   width: 100%;
   display: inline-block;
-  background-image: url("../../images/headerimg2.jpg");
-  background-size: 100%; }
+  background: url("../../images/birdsurfs.jpg") no-repeat center center fixed;
+  background-size: cover; 
+}
+
 header .overlay {
   position: absolute;
   top: 0;
@@ -154,9 +156,12 @@ article {
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-    background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/profile.jpg") center center; }
+    background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/profile.jpg") center center; 
+    background-size: cover;
+  }
   article .circle1:hover {
-    background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/profile.jpg") center center;
+   background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/profile.jpg") center center;
+   background-size: cover;   
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -273,6 +278,7 @@ aside {
   margin-left: 35%;
   margin-top: 85px;
   background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/profile.jpg") center center;
+  background-size: cover;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -ms-transition: 1s;
@@ -280,6 +286,7 @@ aside {
   transition: 1s; }
   .circle2:hover {
     background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/profile.jpg") center center;
+    background-size: cover;   
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -329,14 +336,16 @@ aside {
   height: 295px;
   margin: 0;
   padding: 0;
-  background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/adimage.jpg") center center;
+  background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/fundogsurfs.jpg") center center;
+  background-size: cover;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
   transition: 1s; }
   .adimage:hover {
-    background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/adimage.jpg") center center;
+    background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/fundogsurfs.jpg") center center;
+    background-size: cover;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -469,14 +478,16 @@ aside {
     left: 15px; }
 
 .one {
-  background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/bottomimg1.jpg") center center;
+  background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/catsurfs.jpg") center center;
+  background-size: cover;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
   transition: 1s; }
   .one:hover {
-    background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/bottomimg1.jpg") center center;
+    background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/catsurfs.jpg") center center;
+    background-size: cover; 
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -484,14 +495,16 @@ aside {
     transition: 1s; }
 
 .two {
-  background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/bottomimg2.jpg") center center;
+  background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/surf-dogs.jpg") center center;
+  background-size: cover; 
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
   transition: 1s; }
   .two:hover {
-    background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/bottomimg2.jpg") center center;
+    background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/surf-dogs.jpg") center center;
+    background-size: cover; 
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -500,6 +513,7 @@ aside {
 
 .three {
   background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/bottomimg3.jpg") center center;
+  background-size: cover; 
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -ms-transition: 1s;
@@ -507,6 +521,7 @@ aside {
   transition: 1s; }
   .three:hover {
     background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/bottomimg3.jpg") center center;
+    background-size: cover; 
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -514,14 +529,16 @@ aside {
     transition: 1s; }
 
 .four {
-  background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/bottomimg4.jpg") center center;
+  background: linear-gradient(HSLA(208, 64%, 42%, 0.5), HSLA(208, 64%, 42%, 0.5)), url("../../images/dog-surfing01.jpg") center center;
+  background-size: cover; 
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
   transition: 1s; }
   .four:hover {
-    background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/bottomimg4.jpg") center center;
+    background: linear-gradient(HSLA(208, 64%, 42%, 0), HSLA(208, 64%, 42%, 0)), url("../../images/dog-surfing01.jpg") center center;
+    background-size: cover; 
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
